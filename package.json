@@ -1,21 +1,80 @@
 {
-  "name": "css-color-buddy",
-  "displayName": "css-color-buddy",
-  "description": "",
+  "name": "color-picker-tab",
+  "displayName": "Color Picker Tab",
+  "description": "A dedicated tab for color picking in VS Code",
   "version": "0.0.1",
+  "publisher": "PabloValdes019",
+  "icon": "css_color_buddy_practical_logo_blue.png",
   "engines": {
     "vscode": "^1.96.0"
   },
   "categories": [
-    "Other"
+    "Visualization",
+    "Testing"
   ],
-  "activationEvents": [],
+  "keywords": [
+    "color",
+    "picker",
+    "tab",
+    "color picker",
+    "color tab",
+    "color wheel",
+    "color wheel tab",
+    "color wheel picker",
+    "color wheel tab picker",
+    "rgb",
+    "hex",
+    "hsl",
+    "hexadecimal",
+    "rgb color",
+    "hsl color",
+    "hex color",
+    "css",
+    "design",
+    "web design",
+    "web development",
+    "development",
+    "web",
+    "css color",
+    "css color picker",
+    "css color tab",
+    "css color wheel",
+    "css color wheel tab",
+    "css color buddy",
+    "productivity",
+    "color buddy",
+    "css color buddy",
+    "productivity tool"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Valx01P/css-color-buddy"
+  },
+  "images": [
+    "css_color_buddy_practical_logo_blue.png",
+    "css_color_buddy_practical_logo_red.png"
+  ],
+  "files": [
+    "dist",
+    "css_color_buddy_practical_logo_blue.png",
+    "css_color_buddy_practical_logo_red.png"
+  ],
   "main": "./dist/extension.js",
+  "activationEvents": [
+    "onStartupFinished"
+  ],
   "contributes": {
     "commands": [
       {
-        "command": "css-color-buddy.helloWorld",
-        "title": "Hello World"
+        "command": "css-color-buddy.openColorWheel",
+        "title": "Open Color Wheel"
+      }
+    ],
+    "keybindings": [
+      {
+        "command": "css-color-buddy.openColorWheel",
+        "key": "alt+x",
+        "mac": "cmd+alt+x"
       }
     ]
   },
@@ -45,5 +104,6 @@
     "typescript": "^5.7.2",
     "@vscode/test-cli": "^0.0.10",
     "@vscode/test-electron": "^2.4.1"
-  }
+  },
+  "license": "MIT"
 }

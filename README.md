@@ -1,71 +1,38 @@
-# css-color-buddy README
+# Color Picker Tab README
+### (I personally wanted to call it CSS Color Buddy)
 
-This is the README for your extension "css-color-buddy". After writing up a brief description, we recommend including the following sections.
+![image.png](https://i.ibb.co/tpMnFF9/example-image.png)
 
-## Features
+## Description
 
-Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
+Need a dedicated tab to pick colors anywhere in your project? If so, you've come to the right place!
+Inside the tab you can choose colors with a color wheel and specify if you want RGB, HEX, or HSL.
+Conversion is seamless and you can also choose to change the opacity of the color value.
+A copy button makes it easy to copy the color value.
 
-For example if there is an image subfolder under your extension project workspace:
+## How to use:
 
-\!\[feature X\]\(images/feature-x.png\)
+To open a new color picker tab, it's:
 
-> Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
+WIN: alt + x
 
-## Requirements
+MAC: cmd + alt + x
 
-If you have any requirements or dependencies, add a section describing those and how to install and configure them.
+### Why?:
 
-## Extension Settings
+This extension is made for individuals needing color picker convenience anywhere in VS Code.
+I personally use this when randomly picking colors I might like for a website, mainly in Javascript
+files or my Tailwind Config to do some dynamic colors for multiple themes or states. Which is useful
+for me because I don't get that VS Code color picker I get in CSS styles in these specific files, so this
+makes it more convenient to get a color picker to use instead of going on my broswer to get one to
+choose colors from, and yeah you could just put them side by side, but this is more convenient
+and lets you split screen VS Code with more important things, like some docs.
 
-Include if your extension adds any VS Code settings through the `contributes.configuration` extension point.
+I hope you enjoy this extension as much as I do!
+And for those interested, here are some useful links,
 
-For example:
+- [Github Source Code](https://github.com/Valx01P/css-color-buddy)
 
-This extension contributes the following settings:
-
-* `myExtension.enable`: Enable/disable this extension.
-* `myExtension.thing`: Set to `blah` to do something.
-
-## Known Issues
-
-Calling out known issues can help limit users opening duplicate issues against your extension.
-
-## Release Notes
-
-Users appreciate release notes as you update your extension.
-
-### 1.0.0
-
-Initial release of ...
-
-### 1.0.1
-
-Fixed issue #.
-
-### 1.1.0
-
-Added features X, Y, and Z.
-
----
-
-## Following extension guidelines
-
-Ensure that you've read through the extensions guidelines and follow the best practices for creating your extension.
-
-* [Extension Guidelines](https://code.visualstudio.com/api/references/extension-guidelines)
-
-## Working with Markdown
-
-You can author your README using Visual Studio Code. Here are some useful editor keyboard shortcuts:
-
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux).
-* Toggle preview (`Shift+Cmd+V` on macOS or `Shift+Ctrl+V` on Windows and Linux).
-* Press `Ctrl+Space` (Windows, Linux, macOS) to see a list of Markdown snippets.
-
-## For more information
-
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
+- [My LinkedIn](https://www.linkedin.com/in/pablovaldes01/)
 
 **Enjoy!**
