@@ -1,5 +1,13 @@
 # Color Picker Tab README
-### (I personally wanted to call it CSS Color Buddy)
+-----------------
+## Quick Reference
+
+#### To open a new color picker tab, it's:
+
+#### WIN: alt + x
+
+#### MAC: cmd + alt + x
+-----------------
 
 ![image.png](https://i.ibb.co/tpMnFF9/example-image.png)
 

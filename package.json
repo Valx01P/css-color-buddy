@@ -2,7 +2,7 @@
   "name": "color-picker-tab",
   "displayName": "Color Picker Tab",
   "description": "A dedicated tab for color picking in VS Code",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "publisher": "PabloValdes019",
   "icon": "css_color_buddy_practical_logo_blue.png",
   "engines": {
